@@ -1,0 +1,41 @@
+#Ask user for their name
+name = input("What's your name?")
+
+#Remove whitespaces form str
+name = name.strip().title()
+
+#Capitalize only for the fist letter user's name
+#name = name.capitalize()
+#name = name.title()
+
+#Say hello to user
+#print("hello,")
+#print(name)
+
+#Say hello to the user 2
+#print("hello, " + name) #with space and comma
+
+#Functions
+#Argument: input to a function
+#Variable: A container for some value inside a computer
+
+"""
+Comments
+Comments 
+
+"""
+#Strings - str : Sequences of text
+
+#Say hello to the user
+#print("hello,", end=" ")
+#print(name)
+#print("hello", name, sep='-')
+print(f"hello, {name}")
+
+"""positional PARAMETERS: In the sense that the first thing  you pass to print gets printed first and the second thing you pass
+   to print after a comma gets printed second.
+"""
+#Method: is a function that's built in to a type of value
+ 
+
+
